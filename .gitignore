@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+analytics/.venv/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+.DS_Store
+
+AGENTS.md
+CLAUDE.md
+NOTES.md
+new_stitch_frontend/
