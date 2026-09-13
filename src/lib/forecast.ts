@@ -38,7 +38,7 @@ export interface ForecastDay {
   /** 10th/90th percentile balance from the connected-bank risk model. */
   confidenceLow?: number;
   confidenceHigh?: number;
-  /** Chance (0–1) of being below the waterline on this date. */
+  /** Chance (0 to 1) of being below the waterline on this date. */
   overdraftProbability?: number;
   events: DayEvent[];
   isDanger: boolean;
